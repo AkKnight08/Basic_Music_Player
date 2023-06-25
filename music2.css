@@ -1,0 +1,465 @@
+body {
+  height: 100vh;
+  overflow-x: hidden;
+  padding: 2rem;
+  background-image: linear-gradient(to right, rgb(7, 7, 88), black);
+}
+/* Navigation bar start*/
+.container {
+  width: 100vw;
+}
+.logo {
+  width: 3rem;
+  height: 3rem;
+}
+.navbar-brand {
+  margin-top: 0.4rem;
+}
+.navbar-brand img {
+  width: 3rem;
+  height: 3rem;
+}
+.form-control {
+  width: 20rem;
+}
+.d-flex button {
+  padding: 10px;
+  margin-right: -10px;
+  margin-left: -13px;
+  background-color: black;
+  border-radius: 10%;
+  border: none;
+}
+.d-flex input {
+  color: whitesmoke;
+  background-color: black;
+  border-left-color: black;
+  border-color: black;
+}
+.bell {
+  width: 3rem;
+}
+.bell button {
+  margin-left: 3rem;
+  background: none;
+  border: none;
+}
+.profile button {
+  margin-left: 5rem;
+  background: none;
+  border: none;
+}
+.profile button img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.nav-link p {
+  margin-top: 1rem;
+  color: white;
+}
+/* Navigation bar end */
+/* Nav-bar Responsive design starts*/
+@media screen and (max-width: 1020px) {
+  .form-control {
+    width: auto;
+  }
+  .nav-item a p {
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .bell {
+    width: 0px;
+  }
+  .bell button {
+    width: 0px;
+    opacity: 0;
+  }
+  .profile button {
+    margin-left: 2rem;
+  }
+  .sb {
+    margin-left: -5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sb button {
+    background: none;
+  }
+  .sb input {
+    width: 0px;
+  }
+  .profile button {
+    opacity: 0;
+    width: 0px;
+  }
+}
+/* Nav-bar Responsive design ends */
+/* main content starts */
+/* main body below Nav-bar */
+.maincontent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background: none;
+  justify-content: space-around;
+}
+/* main body left part */
+#div1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5px;
+  margin-left: 1rem;
+  margin-bottom: 5rem;
+  padding: 5px;
+  text-align: center;
+  width: 65%;
+  height: auto;
+  background: none;
+}
+.card-group {
+  width: 100%;
+  height: 70%;
+  background: none;
+}
+.card {
+  width: 100%;
+  height: 70%;
+  background: none;
+}
+.card button {
+  width: 100%;
+  height: 70%;
+  background: none;
+  border: none;
+}
+.card button img {
+  border-radius: 6px;
+}
+#div3 {
+  margin-top: 0.5rem;
+  text-align: center;
+  padding-bottom: 0.2rem;
+  width: 35%;
+  height: auto;
+  background: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fc {
+  width: 100%;
+  height: 40%;
+  border-radius: 5px;
+}
+.fc img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+#div4 {
+  text-align: center;
+  height: auto;
+  background: none;
+  width: 30%;
+  margin-left: 0.3rem;
+  margin-top: 1rem;
+}
+
+#div5 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  height: auto;
+  background: none;
+  overflow: hidden;
+  margin-top: 1rem;
+  margin-left: 0.3rem;
+}
+#div5-1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  height: auto;
+  background: none;
+  overflow: hidden;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+/* main body Right part starts*/
+#div2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 1rem;
+  height: auto;
+  background: none;
+  width: 25%;
+  margin-top: 0.5rem;
+}
+.que {
+  color: white;
+  border-radius: 10px;
+  background: none;
+  width: 100%;
+  height: 40rem;
+  max-height: 40rem;
+  overflow-y: scroll;
+  scrollbar-color: none;
+}
+.que ol li {
+  border: none;
+  background: none;
+  color: white;
+  height: 4.5rem;
+  padding: 5px;
+  margin-left: -0.8rem;
+}
+div::-webkit-scrollbar {
+  display: none;
+}
+.que ol li div a img {
+  width: 100%;
+  border-radius: 5%;
+  height: 4.3rem;
+}
+.card10 {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.card10 img {
+  width: 100;
+  border-radius: 5px;
+}
+.card11 {
+  background: none;
+  width: 100%;
+  height: auto;
+}
+/* main body Right part ends*/
+/* Main body Responsive design starts*/
+@media screen and (max-width: 1290px) {
+}
+@media screen and (max-width: 1020px) {
+  #div2 {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+  #div1 {
+    margin-right: -10rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  #div3 {
+    width: 40%;
+    height: 10rem;
+  }
+  #div4 {
+    height: 10rem;
+    width: 50%;
+  }
+  #div5 {
+    margin-top: 30rem;
+  }
+  #div5-1 {
+    margin-top: -4rem;
+  }
+  #div5-3 {
+    margin-top: -7rem;
+  }
+  #div5-2 {
+    margin-top: -3rem;
+  }
+  #div6 {
+    margin-top: -10rem;
+  }
+  .card7 {
+    margin-top: -5rem;
+    width: 50%;
+  }
+  .card7-2 {
+    margin-top: -5rem;
+    width: 50%;
+  }
+  .card7-1 {
+    opacity: 0;
+    width: 0px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #div5-1 {
+    margin-top: 4rem;
+  }
+  #div5-3 {
+    margin-top: 1rem;
+  }
+  #div5-2 {
+    margin-top: 2rem;
+  }
+
+  .card7 {
+    opacity: 0;
+  }
+  .card7-2 {
+    opacity: 0;
+  }
+  .card7-1 {
+    opacity: 1;
+  }
+  #div3 {
+    opacity: 0;
+  }
+  #div4 {
+    margin-top: -10rem;
+    height: 6rem;
+    width: 80%;
+  }
+}
+/* Main body Responsive design ends*/
+.bottom-bar {
+  width: 100%;
+  background: none;
+  height: 4.5rem;
+}
+.card9 {
+  padding-top: 1rem;
+  background: none;
+  padding: 1px;
+  height: 33%;
+  width: 100%;
+}
+.card9 img {
+  border-radius: 10px;
+  padding: 2px;
+  height: auto;
+}
+.bottom-bar {
+  width: 100%;
+  background: none;
+  height: 4.5rem;
+  height: 7%;
+  border-radius: 5%;
+  background-image: linear-gradient(to right, black, rgb(7, 7, 88), black);
+  opacity: 0.9;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bb1 {
+  background: none;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.bb2 {
+  background: none;
+  width: 45%;
+  height: 100%;
+  margin-bottom: 0.2rem;
+  border: none;
+}
+.bb3 {
+  margin-top: 0.5rem;
+  background: none;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+}
+.bb3o {
+  width: 2.5rem;
+}
+.bb1img {
+  width: 25%;
+  height: 100%;
+}
+.bb1img a img {
+  border-radius: 5px;
+  margin-left: 0.6rem;
+  margin-bottom: 0.3rem;
+  width: 3rem;
+  height: 100%;
+}
+.play {
+  width: 100%;
+  background: none;
+}
+:root {
+  --section-variable: white;
+}
+audio::-webkit-media-controls-panel {
+  color: var(--section-variable);
+  background-image: linear-gradient(to right, rgb(7, 7, 88), black);
+  border: none;
+}
+audio::-webkit-media-controls-mute-button {
+  color: var(--section-variable);
+  background-color: white;
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-mute-button:hover {
+  background-color: var(--section-variable);
+}
+audio::-webkit-media-controls-play-button {
+  background-color: var(--section-variable);
+  color: white;
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgba(177, 212, 224, 0.7);
+}
+audio::-webkit-media-controls-current-time-display {
+  color: var(--section-variable);
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: var(--section-variable);
+}
+audio::-webkit-media-controls-timeline {
+  background-color: rgba(177, 212, 224, 0.7);
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+audio::-webkit-media-controls-volume-slider {
+  background-color: #b1d4e0;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.div13 {
+  margin-top: 4rem;
+  text-align: center;
+  background: none;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.card13 {
+  border-color: white;
+  border-width: 5px;
+  background: none;
+  width: 33%;
+  height: auto;
+}
+@media screen and (max-width: 1040px) {
+}
